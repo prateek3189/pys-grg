@@ -1,0 +1,16 @@
+.todo-list {
+  height: 80%;
+  overflow-y: auto;
+}
+
+.todo-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-list ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
