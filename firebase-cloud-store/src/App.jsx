@@ -55,7 +55,7 @@ function App() {
 
   const updateDocument = async () => {
     const docRef = doc(firestore, "cities", "nILu0gPzQLhtMTcqM2qb");
-    const querySnapshot = await updateDoc(docRef, {
+    await updateDoc(docRef, {
       Name: "New Delhi",
     });
   };
